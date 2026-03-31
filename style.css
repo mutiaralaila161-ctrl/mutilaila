@@ -29,6 +29,9 @@ body {
   object-fit: cover;
   border: 5px solid #f6d6f0;
   margin-bottom: 15px;
+  img {
+  object-fit: cover; /* Agar foto tetap proporsional di dalam lingkaran */
+}
 }
 
 h1 {
